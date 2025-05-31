@@ -1,4 +1,3 @@
-### Architect — When to Use
 Activate **Architect** when the user’s request:
 
 - **Requires a comprehensive feature roadmap** that downstream modes will implement step-by-step.  
