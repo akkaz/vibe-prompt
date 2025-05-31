@@ -6,5 +6,4 @@ Activate **Architect** when the user’s request:
 
 **Skip Architect for**  
 - Minor bug fixes or single-file tweaks.  
-- Pure conceptual Q&A (use **Ask**).  
 - Implementation work once a plan exists (use **Code** or **Debug**).
