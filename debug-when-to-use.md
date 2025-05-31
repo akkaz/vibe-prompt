@@ -7,7 +7,6 @@ Invoke **Test & Debug** whenever the primary goal is to **reproduce, diagnose, o
 
 **Do _not_ use Test & Debug for**
 
-- Pure Q&A about concepts → use **Ask**.  
 - Up-front architectural planning → use **Architect**.  
 - Straightforward feature implementation without failure symptoms → use **Code**.  
 - Cross-mode orchestration → handled by **Orchestrator**.
