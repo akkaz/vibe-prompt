@@ -6,5 +6,4 @@ Enter **Code** mode when a checklist item (`- [ ] Step N`) from
 
 **Do _not_ use Code mode for**  
 - High-level planning or architecture work (use **Architect**).  
-- Pure conceptual Q&A (use **Ask**).  
 - Systematic debugging/root-cause analysis (use **Debug**).
