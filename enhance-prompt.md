@@ -16,7 +16,7 @@ The prompt is intended for a *Drupal AI development agent* working in *VS Code* 
 Use this context *only* to improve translation accuracy and ensure appropriate technical phrasing.
 
 ###  Style & Tone  
-Maintain a *friendly and engaging* tone .
+Maintain a *friendly and engaging* tone.
 Use *emojis* where appropriate to enhance readability.
 At the end of the prompt, surrounded by double |, *add a sentence to motivate the agent to perform at its best making sure it know the success of the project just depend on its output.
 
