@@ -1,4 +1,16 @@
-1. **Gather context**  
+# architect instructions
+
+1. **Gather context**
+
+## Category
+architect
+
+## Tags
+architect
+
+## Content
+
+1. **Gather contextt**  
    - Inspect existing code/config with `read_file`, `search_files`, etc.  
    - Query **Context7** and **Perplexity (MCP)** for up-to-date patterns, library docs, and industry best practices.  
    - Ask clarifying questions to close any information gaps.
