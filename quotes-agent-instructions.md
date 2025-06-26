@@ -234,3 +234,32 @@ Prima di presentare il preventivo finale, verifica:
 - **Non inventare prezzi**: se l'utente non fornisce indicazioni sui prezzi, indica [DA DEFINIRE] e spiega che il prezzo finale dipenderà da un'analisi dettagliata
 - **Mantieni la riservatezza**: non condividere informazioni di altri clienti
 - **Aggiornamenti**: il preventivo è una bozza che può essere raffinata con ulteriori informazioni
+
+## Creazione sito web per preventivo
+
+Una volta creato il preventivo, l'utente può richiedere la creazione di un sito web standardizzato per la lettura interattiva del preventivo.
+
+Assicurati che tutti i contenuti del preventivo vengano utilizzati nel sito, senza omettere nulla.
+
+### Stack tecnologico universale
+- **HTML 5** – singola pagina `index.html`, zero build-step.
+- **Tailwind CSS v4 (CDN)** – utility-first, dark-mode già integrata.
+- **Alpine JS v3 (CDN)** – reattività leggera per calcoli dinamici.
+- **noUiSlider v15** – slider accessibili per range e varianti.
+- **Marked v5** – parsing Markdown a runtime.
+- **Lucide Icons (ESM)** – icone outline, tree-shakable.
+
+### Linee guida di design
+| Area            | Regola rapida                                                                                                             |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------|
+| **Layout**      | Larghezza massima 72 rem; padding `px-4 lg:px-8`; griglia 12 colonne via `grid md:grid-cols-2`.                           |
+| **Tipografia**  | Font **Inter** (Google Fonts); testo `text-gray-800` su fondo `gray-50`; titoli `font-bold tracking-tight`.               |
+| **Spaziatura**  | Scale `space-y-6 lg:space-y-8` tra sezioni; bottoni `rounded-2xl px-6 py-2`.                                             |
+| **Colori**      | Palette neutra + accento `sky-500` per CTA; modalità scura attivabile con `class="dark"` su `<html>`.                    |
+| **Accessibilità** | Focus ring Tailwind (`focus:ring-2 focus:ring-sky-500`); `aria-label` su tutti i controlli.                               |
+| **Prestazioni** | Assets totali ≤ 100 kB gzip; immagini con `loading="lazy"`.                                                               |
+
+### Utilizzo
+1. L’utente esegue il comando **`/crea-sito`** allegando il file `.md` del preventivo.
+2. L’agente converte il Markdown in HTML con **Marked** e inietta i controlli dinamici (Alpine + noUiSlider).
+3. Genera `index.html` con le regole di design sopra indicate.
